@@ -6,8 +6,8 @@ const Nav = ({ handleClick }) => {
     const buttonClasses = 'font-medium px-4 py-1 border border-white hover:border-black rounded-full transition duration-300'
     return (
         <>
-            <NavLink to="/" className={({ isActive }) =>
-                `${buttonClasses} ${isActive ? 'bg-black text-gray-100' : ''}`} onClick={handleClick}>About</NavLink>
+            <NavLink to="/education" className={({ isActive }) =>
+                `${buttonClasses} ${isActive ? 'bg-black text-gray-100' : ''}`} onClick={handleClick}>Education</NavLink>
             <NavLink to="/experience" className={({ isActive }) =>
                 `${buttonClasses} ${isActive ? 'bg-black text-gray-100' : ''}`} onClick={handleClick}>Experience</NavLink>
                 <NavLink to="/projects" className={({ isActive }) =>

@@ -1,7 +1,6 @@
 import React from 'react'
-import ExperienceCard from '../components/ExperienceCard'
 
-const experienceData = [
+const educationData = [
   {
     jobTitle: 'Failure Analisys Technitian',
     company: 'Evertz',
@@ -18,26 +17,16 @@ const experienceData = [
   }
 ]
 
-const Experience = () => {
+function Education() {
   return (
     <div className="pt-20 min-h-screen text-black px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl font-bold mt-4 mb-6 text-center">My Experience</h2>
+        <h2 className="text-4xl font-bold mt-4 mb-6 text-center">My Education</h2>
         <div className="flex flex-col space-y-6">
-          {experienceData.map((exp, index) => (
-            <ExperienceCard
-              key={index}
-              jobTitle={exp.jobTitle}
-              company={exp.company}  
-              dates={exp.dates}
-              skills={exp.skills}
-              responsibilities={exp.responsibilities}
-            />
-          ))}
         </div>
       </div>
     </div>
   )
 }
 
-export default Experience
+export default Education

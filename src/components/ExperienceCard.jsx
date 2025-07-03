@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const ExperienceCard = ({ jobTitle, company, dates, skills, description }) => {
+const ExperienceCard = ({ jobTitle, company, dates, skills, responsibilities }) => {
     const [showDescription, setShowDescription] = useState(false);
     return (
         <div className=" text-black rounded-xl shadow-sm p-4 transform transition-transform duration-300 hover:shadow-md cursor-pointer"
@@ -22,7 +22,11 @@ const ExperienceCard = ({ jobTitle, company, dates, skills, description }) => {
             </div>
 
             {showDescription && (
-                <p className="text-xs text-gray-900 italic mb-2">{description}</p>
+                <ul className="list-disc pl-6 text-xs text-gray-900 italic mb-2 space-y-1">
+          {responsibilities.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
             )}
 
             <p className="text-sm font-bold text-blue-1200 underline">

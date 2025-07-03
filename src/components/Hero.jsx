@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen px-6 bg-gradient-to-b from-white to-gray-100">
+    <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-white to-gray-100">
 
       {/* Text */}
       <div className="text-center justify-center">
@@ -25,12 +25,12 @@ const Hero = () => {
             </a>
           </div>
           <div className='px-2'>
-            <a
-              href="#contact"
+            <Link
+            to='/contact'
               className="bg-black text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition"
             >
               Contact Info
-            </a>
+            </Link>
           </div>
         </div>
 

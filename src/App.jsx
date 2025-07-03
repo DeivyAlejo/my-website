@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Experience from './pages/Experience'
+import Education from './pages/Education'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
