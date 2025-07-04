@@ -3,18 +3,31 @@ import ExperienceCard from '../components/ExperienceCard'
 
 const experienceData = [
   {
-    jobTitle: 'Failure Analisys Technitian',
-    company: 'Evertz',
-    dates: 'Jan 2024 to present',
-    skills: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    responsibilities: ['Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.', 'Send data to multiple parts of the project'],
+    jobTitle: 'Failure Analisys Technician',
+    company: 'Evertz Microsystems',
+    dates: 'Jan. 2024 to Present',
+    skills: 'Electronics, Failure Analysis, Oscillocope, Multimeter',
+    responsibilities: ['Perfomed repairs and component level analysis of cutting edge broadcasting equipment.', 
+                        'Oparated an calibrated test equipment to diagnose and reolve production related issues.',
+                      'Performed failure analysis and root cause investigations on defects, primarily focusing on Linux based modules, to identify and implement effective corrective actions.'],
   },
   {
-    jobTitle: 'Software Developer',
-    company: 'Evertz',
-    dates: 'Jan 2024 to present',
-    skills: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    responsibilities: ['Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.', 'Send data to multiple parts of the project'],
+    jobTitle: 'Software Developer - Research Assistant',
+    company: 'Mohawk College',
+    dates: 'Feb. 2022 to Dec. 2023',
+    skills: 'C++, Python, OpenCV, Computer Vision, IP Camera',
+    responsibilities: ['Developed a backend system using Python, C++, and OpenCV for comprehensive camera control, image processing, and video recording.', 
+                        'Researched techniques to process the videos, using computer vision algorithms to extract and analyze insights from visual data.',
+                        'Collaborated within a cross-functional team using agile methodology, ensuring continuous delivery and iterative improvement throughout the development lifecycle.',
+                        'Conducted and facilitated daily stand-up meetings, planning sessions, backlog grooming sessions, and retrospectives as a routine part of my responsibilities.'],
+  },{
+    jobTitle: 'Professor - Research Assistant',
+    company: 'Technological Universisty of Pereira',
+    dates: 'Feb. 2015 to Aug. 2021',
+    skills: 'Teaching, CAD, Solidworks, Electronics, Image Processing, Matlab, Embedded Systems, 3D printing',
+    responsibilities: ['Developed and delivered Mechatronics Engineering courses, including CAD (SolidWorks), Analog Electronics, and Digital Electronics.', 
+                        'Created machine learning algorithms using MatLab libraries for different projects such as biometrics identification, altered images, and motion blur images.',
+                        'Developed electro-mechanical system prototypes by integrating microcontrollers, sensors, motors, and various electronic components, utilizing SolidWorks for mechanical design, and employing 3D printing to create mechanical prototypes.'],
   }
 ]
 
