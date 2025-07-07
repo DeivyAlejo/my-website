@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const ExperienceCard = ({ jobTitle, company, dates, skills, responsibilities }) => {
+const ExperienceCard = ({ jobTitle, company, dates,location, skills, responsibilities }) => {
     const [showDescription, setShowDescription] = useState(false);
     return (
         <div className=" text-black rounded-xl shadow-sm p-4 transform transition-transform duration-300 hover:shadow-md cursor-pointer"
@@ -9,11 +9,11 @@ const ExperienceCard = ({ jobTitle, company, dates, skills, responsibilities }) 
         >
             <div className='flex flex-row justify-between items-center mb-2'>
                 <h3 className="text-2xl font-semibold">{jobTitle}</h3>
-                <p className="text-sm text-gray-900 italic">{dates}</p>
+                <p className="text-m text-gray-900 italic">{dates}</p>
             </div>
-            <div className='text-xl text-gray-900 flex flex-row space-x-1 mb-2'>
-                {/* <p className='font-bold'>Company:</p> */}
-                <p className="text-gray-800 italic">{company}</p>
+            <div className=' flex flex-row justify-between mb-2'>
+                <p className="text-xl text-gray-800 italic">{company}</p>
+                <p className='text-m text-gray-900 italic'>{location}</p>
             </div>
 
             <div className='text-m text-gray-900 flex flex-row space-x-1 mb-2'>
