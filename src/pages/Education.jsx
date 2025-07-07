@@ -1,19 +1,27 @@
 import React from 'react'
+import EducationCard from '../components/EducationCard'
 
 const educationData = [
   {
-    jobTitle: 'Failure Analisys Technitian',
-    company: 'Evertz',
-    dates: 'Jan 2024 to present',
-    skills: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    responsibilities: ['Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.', 'Send data to multiple parts of the project'],
+    degree: 'Computer Systems: Software Support',
+    institution: 'Mohawk College',
+    dates: 'Sep 2021 to Dec 2024',
+    location: 'Hamilton, ON',
+    programFocus : '',
   },
   {
-    jobTitle: 'Software Developer',
-    company: 'Evertz',
-    dates: 'Jan 2024 to present',
-    skills: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    responsibilities: ['Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.', 'Send data to multiple parts of the project'],
+    degree: 'MsC Physics and Electronics',
+    institution: 'Technological Universisty of Pereira',
+    dates: 'Feb 2015 to Dec 2017',
+    location: 'Colombia',
+    programFocus : '',
+  },
+  {
+    degree: 'BsC Mechatronics Enginnering',
+    institution: 'Technological Universisty of Pereira',
+    dates: 'Aug 2009 to Dec 2014',
+    location: 'Colombia',
+    programFocus : '',
   }
 ]
 
@@ -23,6 +31,15 @@ function Education() {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mt-4 mb-6 text-center">My Education</h2>
         <div className="flex flex-col space-y-6">
+          {educationData.map((exp, index) => (
+            <EducationCard
+              key={index}
+              degree={exp.degree}
+              institution={exp.institution}  
+              dates={exp.dates}
+              location={exp.location}
+              programFocus={exp.programFocus}
+            />))}
         </div>
       </div>
     </div>
