@@ -2,79 +2,54 @@ import React from 'react'
 import { useState } from 'react';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // TODO: Handle form submission logic
-    console.log('Form submitted:', formData);
-  };
-
   return (
-    <form 
-      onSubmit={handleSubmit}
-      className="text-black rounded-xl shadow-sm p-6 space-y-4 w-full max-w-md mx-auto bg-white"
-    >
-      <h3 className="text-2xl font-semibold mb-2">Contact Me</h3>
+    <div className="pt-20 min-h-screen text-black px-6">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-4xl font-bold mt-4 mb-6 text-center">Contact Me</h2>
 
-      <div className="flex flex-col">
-        <label className="text-sm font-bold mb-1" htmlFor="name">Name</label>
-        <input
-          className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
+        <form
+          action="mailto:youremail@example.com"
+          method="POST"
+          encType="text/plain"
+          className="space-y-4 bg-white p-6 rounded-lg shadow-md"
+        >
+          <div>
+            <label className="block text-sm font-semibold mb-1">Name</label>
+            <input
+              type="text"
+              name="name"
+              required
+              className="w-full border border-gray-300 px-4 py-2 rounded"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-semibold mb-1">Email</label>
+            <input
+              type="email"
+              name="email"
+              required
+              className="w-full border border-gray-300 px-4 py-2 rounded"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-semibold mb-1">Message</label>
+            <textarea
+              name="message"
+              rows="4"
+              required
+              className="w-full border border-gray-300 px-4 py-2 rounded"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="text-blue-1200 px-4 py-1 border border-black rounded-full hover:bg-black hover:text-white font-bold cursor-pointer"
+          >
+            Send
+          </button>
+        </form>
       </div>
-
-      <div className="flex flex-col">
-        <label className="text-sm font-bold mb-1" htmlFor="email">Email</label>
-        <input
-          className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-      </div>
-
-      <div className="flex flex-col">
-        <label className="text-sm font-bold mb-1" htmlFor="message">Message</label>
-        <textarea
-          className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          id="message"
-          name="message"
-          rows="4"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-      </div>
-
-      <button
-        type="submit"
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-colors duration-200"
-      >
-        Send Message
-      </button>
-    </form>
-  );
+    </div>
+  )
 }
 
 export default Contact
