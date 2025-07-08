@@ -6,37 +6,43 @@ const projectData = [
     title: 'ESP32 Temperature Logger',
     description: 'Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.',
     tech: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   },
   {
     title: 'Motor Control with PWM',
     description: 'Controls DC motor speed and direction using PWM and H-bridge driver.',
     tech: 'STM32, C, PWM, Motor Driver, FreeRTOS',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   },
   {
     title: 'Custom PCB Signal Generator',
     description: 'Twin-T oscillator circuit designed in KiCad and prototyped to generate a 22kHz signal.',
     tech: 'KiCad, Op-Amps, Oscillator Design, Analog Electronics',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   },
   {
     title: 'ESP32 Temperature Logger',
     description: 'Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.',
     tech: 'ESP32, DHT11, MQTT, OLED, Arduino',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   },
   {
     title: 'Motor Control with PWM',
     description: 'Controls DC motor speed and direction using PWM and H-bridge driver.',
     tech: 'STM32, C, PWM, Motor Driver, FreeRTOS',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   },
   {
     title: 'Custom PCB Signal Generator',
     description: 'Twin-T oscillator circuit designed in KiCad and prototyped to generate a 22kHz signal.',
     tech: 'KiCad, Op-Amps, Oscillator Design, Analog Electronics',
-    link: 'https://github.com/yourusername/esp32-logger'
+    github: 'https://github.com/yourusername/esp32-logger',
+    demoPage: 'https://github.com/yourusername/esp32-logger'
   }
 ]
 
@@ -52,7 +58,8 @@ const Projects = () => {
               title={proj.title}
               description={proj.description}
               tech={proj.tech}
-              link={proj.link}
+              github={proj.github}
+              demoPage={proj.demoPage}
             />
           ))}
         </div>
