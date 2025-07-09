@@ -9,16 +9,16 @@ const Hero = () => {
 
       {/* Text */}
       <div className="text-center justify-center">
-        <p className="text-gray-600 text-lg mb-1">Hello, I'm</p>
+        <p className="text-gray-600 text-2xl mb-1">Hello, I'm</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Deivy Munoz</h1>
-        <h2 className="text-2xl text-gray-700 mb-6">Embedded Software Developer</h2>
+        <h2 className="text-3xl text-gray-700 mb-6">Embedded Software Developer</h2>
 
         {/* Buttons */}
         <div className="flex justify-center">
           <div className='px-2'>
             <a
               href="/cv.pdf"
-              className="border border-black px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition"
+              className="border border-black px-4 py-2 rounded-full font-medium text-lg hover:bg-gray-100 transition"
               download
             >
               Download CV
@@ -27,9 +27,9 @@ const Hero = () => {
           <div className='px-2'>
             <Link
             to='/contact'
-              className="bg-black text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition"
+              className="bg-black text-white px-4 py-2 rounded-full font-medium text-lg hover:opacity-90 transition"
             >
-              Contact Info
+              Contact me
             </Link>
           </div>
         </div>

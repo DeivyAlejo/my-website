@@ -5,16 +5,16 @@ const Contact = () => {
   return (
     <div className="pt-20 min-h-screen text-black px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl font-bold mt-4 mb-6 text-center">Contact Me</h2>
+        <h2 className="text-3xl font-bold mt-4 mb-6 text-center">Contact Me</h2>
 
         <form
           action="mailto:youremail@example.com"
           method="POST"
           encType="text/plain"
-          className="space-y-4 bg-white p-6 rounded-lg shadow-md"
+          className="space-y-4 bg-white p-6 rounded-lg shadow-sm"
         >
           <div>
-            <label className="block text-sm font-semibold mb-1">Name</label>
+            <label className="block text-base font-semibold mb-1">Name</label>
             <input
               type="text"
               name="name"
@@ -23,7 +23,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-semibold mb-1">Email</label>
+            <label className="block text-base font-semibold mb-1">Email</label>
             <input
               type="email"
               name="email"
@@ -32,7 +32,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label className="block text-sm font-semibold mb-1">Message</label>
+            <label className="block text-base font-semibold mb-1">Message</label>
             <textarea
               name="message"
               rows="4"

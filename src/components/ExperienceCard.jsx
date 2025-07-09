@@ -8,21 +8,21 @@ const ExperienceCard = ({ jobTitle, company, dates,location, skills, responsibil
             onClick={() => setShowDescription(!showDescription)}
         >
             <div className='flex flex-row justify-between items-center mb-2'>
-                <h3 className="text-2xl font-semibold">{jobTitle}</h3>
-                <p className="text-m text-gray-900 italic">{dates}</p>
+                <h3 className="text-xl font-semibold">{jobTitle}</h3>
+                <p className="text-base text-gray-900 italic">{dates}</p>
             </div>
             <div className=' flex flex-row justify-between mb-2'>
-                <p className="text-xl text-gray-800 italic">{company}</p>
-                <p className='text-m text-gray-900 italic'>{location}</p>
+                <p className="text-lg text-gray-800 italic">{company}</p>
+                <p className='text-base text-gray-900 italic'>{location}</p>
             </div>
 
-            <div className='text-m text-gray-900 flex flex-row space-x-1 mb-2'>
+            <div className='text-base text-gray-900 flex flex-row space-x-1 mb-2'>
                 <p className='font-bold'>Skills:</p>
                 <p className="italic">{skills}</p>
             </div>
 
             {showDescription && (
-                <ul className="list-disc pl-6 text-m text-gray-900 italic mb-2 space-y-1">
+                <ul className="list-disc pl-6 text-base text-gray-900 italic mb-2 space-y-1">
           {responsibilities.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

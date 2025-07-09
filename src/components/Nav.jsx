@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Nav = ({ handleClick }) => {
 
-    const buttonClasses = 'font-medium px-4 py-1 border border-white hover:border-black rounded-full transition duration-300'
+    const buttonClasses = 'font-semibold text-lg px-4 py-1 border border-white hover:border-black rounded-full transition duration-300'
     return (
         <>
             <NavLink to="/education" className={({ isActive }) =>

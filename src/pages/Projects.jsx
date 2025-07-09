@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <div className="pt-20 min-h-screen text-black px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold mt-4 mb-6 text-center">My Projects</h2>
+        <h2 className="text-3xl font-bold mt-4 mb-6 text-center">My Projects</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projectData.map((proj, index) => (
             <ProjectCard
