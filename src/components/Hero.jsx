@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="text-center justify-center">
         <p className="text-gray-600 text-2xl mb-1">Hello, I'm</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Deivy Munoz</h1>
-        <h2 className="text-3xl text-gray-700 mb-6">Embedded Software Developer</h2>
+        <h2 className="text-3xl text-gray-700 mb-6">Software Engineer</h2>
 
         {/* Buttons */}
         <div className="flex justify-center">
@@ -36,10 +36,10 @@ const Hero = () => {
 
         {/* Social Icons */}
         <div className="flex justify-center space-x-4 mt-6 text-gray-700">
-          <Link to="https://linkedin.com" target="_blank">
+          <Link to="https://linkedin.com/in/deivymunoz" target="_blank">
             <FaLinkedin size={"30"} className='fill-black'/>
           </Link>
-          <Link to="https://github.com" target="_blank">
+          <Link to="https://github.com/deivyalejo" target="_blank">
             <FaGithub size={"30"} className='fill-black'/>
           </Link>
         </div>

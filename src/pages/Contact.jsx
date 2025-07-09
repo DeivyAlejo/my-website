@@ -8,7 +8,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mt-4 mb-6 text-center">Contact Me</h2>
 
         <form
-          action="mailto:youremail@example.com"
+          action="mailto:dmunoz2460@gmail.com"
           method="POST"
           encType="text/plain"
           className="space-y-4 bg-white p-6 rounded-lg shadow-sm"
