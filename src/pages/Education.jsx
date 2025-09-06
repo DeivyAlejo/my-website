@@ -11,14 +11,14 @@ const educationData = [
   },
   {
     degree: 'MsC Physics and Electronics',
-    institution: 'Technological Universisty of Pereira',
+    institution: 'Technological University of Pereira',
     dates: 'Feb 2015 to Dec 2017',
     location: 'Colombia',
     programFocus : '',
   },
   {
     degree: 'BsC Mechatronics Enginnering',
-    institution: 'Technological Universisty of Pereira',
+    institution: 'Technological University of Pereira',
     dates: 'Aug 2009 to Dec 2014',
     location: 'Colombia',
     programFocus : '',

@@ -14,7 +14,7 @@ const projectData = [
     description: 'Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.',
     tech: 'ESP32, DHT11, MQTT, OLED, Arduino, I2C',
     github: 'https://github.com/DeivyAlejo/temp_sensor_esp32',
-    demoPage: 'https://github.com/yourusername/esp32-logger'
+    demoPage: 'https://github.com/DeivyAlejo/temp_sensor_esp32'
   },
   {
     title: 'Word Search Solver',

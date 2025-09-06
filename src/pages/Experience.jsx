@@ -24,7 +24,7 @@ const experienceData = [
                         'Conducted and facilitated daily stand-up meetings, planning sessions, backlog grooming sessions, and retrospectives as a routine part of my responsibilities.'],
   },{
     jobTitle: 'Professor - Research Assistant',
-    company: 'Technological Universisty of Pereira',
+    company: 'Technological University of Pereira',
     dates: 'Feb. 2015 to Aug. 2021',
     location: 'Colombia',
     skills: 'Teaching, CAD, Solidworks, Electronics, Image Processing, Matlab, Embedded Systems, 3D printing',
