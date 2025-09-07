@@ -1,0 +1,94 @@
+{
+    "experience": [
+        {
+            "jobTitle": "Failure Analysis Technician",
+            "company": "Evertz Microsystems",
+            "dates": "Jan. 2024 to Present",
+            "location": "Burlington, ON",
+            "skills": "Electronics, Failure Analysis, Oscilloscope, Multimeter",
+            "responsibilities": [
+                "Performed repairs and component level analysis of cutting edge broadcasting equipment.",
+                "Operated and calibrated test equipment to diagnose and resolve production related issues.",
+                "Performed failure analysis and root cause investigations on defects, primarily focusing on Linux based modules, to identify and implement effective corrective actions."
+            ]
+        },
+        {
+            "jobTitle": "Software Developer",
+            "company": "Mohawk College",
+            "dates": "Feb. 2022 to Dec. 2023",
+            "location": "Hamilton, ON",
+            "skills": "C++, Python, OpenCV, Computer Vision, IP Camera",
+            "responsibilities": [
+                "Developed a backend system using Python, C++, and OpenCV for comprehensive camera control, image processing, and video recording.",
+                "Researched techniques to process the videos, using computer vision algorithms to extract and analyze insights from visual data.",
+                "Collaborated within a cross-functional team using agile methodology, ensuring continuous delivery and iterative improvement throughout the development lifecycle.",
+                "Conducted and facilitated daily stand-up meetings, planning sessions, backlog grooming sessions, and retrospectives as a routine part of my responsibilities."
+            ]
+        },
+        {
+            "jobTitle": "Professor - Research Assistant",
+            "company": "Technological University of Pereira",
+            "dates": "Feb. 2015 to Aug. 2021",
+            "location": "Colombia",
+            "skills": "Teaching, CAD, Solidworks, Electronics, Image Processing, Matlab, Embedded Systems, 3D printing",
+            "responsibilities": [
+                "Developed and delivered Mechatronics Engineering courses, including CAD (SolidWorks), Analog Electronics, and Digital Electronics.",
+                "Created machine learning algorithms using MatLab libraries for different projects such as biometrics identification, altered images, and motion blur images.",
+                "Developed electro-mechanical system prototypes by integrating microcontrollers, sensors, motors, and various electronic components, utilizing SolidWorks for mechanical design, and employing 3D printing to create mechanical prototypes."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Computer Systems: Software Support",
+            "institution": "Mohawk College",
+            "dates": "Sep 2021 to Dec 2024",
+            "location": "Hamilton, ON",
+            "programFocus": ""
+        },
+        {
+            "degree": "MsC Physics and Electronics",
+            "institution": "Technological University of Pereira",
+            "dates": "Feb 2015 to Dec 2017",
+            "location": "Colombia",
+            "programFocus": ""
+        },
+        {
+            "degree": "BsC Mechatronics Engineering",
+            "institution": "Technological University of Pereira",
+            "dates": "Aug 2009 to Dec 2014",
+            "location": "Colombia",
+            "programFocus": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Iris Biometrics Recognition",
+            "description": "This research created a new iris image dataset using white light to improve recognition for Latin-American eyes. By adapting the EigenIris method and analyzing RGB channels, especially blue, the study achieved strong accuracy without infrared.",
+            "tech": "Python, OpenCV, Biometrics Recognition, Image Processing",
+            "github": "https://github.com/DeivyAlejo/iris-biometric-recognition",
+            "demoPage": "https://revistas.utp.edu.co/index.php/revistaciencia/article/view/22861/16382"
+        },
+        {
+            "title": "ESP32 Temperature Logger",
+            "description": "Reads temperature and humidity using DHT11, displays data on OLED, and publishes via MQTT.",
+            "tech": "ESP32, DHT11, MQTT, OLED, Arduino, I2C",
+            "github": "https://github.com/DeivyAlejo/temp_sensor_esp32",
+            "demoPage": "https://github.com/DeivyAlejo/temp_sensor_esp32"
+        },
+        {
+            "title": "Word Search Solver",
+            "description": "This Python project solves word search puzzles by finding the sequence of letters that form a target word in the correct direction from a grid",
+            "tech": "Python, AWS, Lambda, API Gateway, Apmlify, Data Structures",
+            "github": "https://github.com/DeivyAlejo/word_search_solver",
+            "demoPage": "https://www.youtube.com/watch?v=PPkMyLJM1gI"
+        },
+        {
+            "title": "Video Cropper",
+            "description": "This script lets users select and crop a video region using mouse clicks, then saves the cropped output.",
+            "tech": "OpenCV, Python, Tkinter",
+            "github": "https://github.com/DeivyAlejo/Video-Cropper",
+            "demoPage": "https://github.com/DeivyAlejo/Video-Cropper"
+        }
+    ]
+}
