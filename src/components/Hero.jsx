@@ -16,13 +16,12 @@ const Hero = () => {
         {/* Buttons */}
         <div className="flex justify-center">
           <div className='px-2'>
-            <a
-              href="https://drive.google.com/file/d/1kgT_-h4FsGcEcxHmGMeISauZfH8WVUiT/view?usp=sharing"
+            <Link
+              to="https://drive.google.com/file/d/1kgT_-h4FsGcEcxHmGMeISauZfH8WVUiT/view?usp=sharing" target='blank'
               className="border border-black px-4 py-2 rounded-full font-medium text-lg hover:bg-gray-100 transition"
-              download
             >
               Download CV
-            </a>
+            </Link>
           </div>
           <div className='px-2'>
             <Link
