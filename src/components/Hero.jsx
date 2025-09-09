@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex justify-center">
           <div className='px-2'>
             <a
-              href="/cv.pdf"
+              href="https://drive.google.com/file/d/1kgT_-h4FsGcEcxHmGMeISauZfH8WVUiT/view?usp=sharing"
               className="border border-black px-4 py-2 rounded-full font-medium text-lg hover:bg-gray-100 transition"
               download
             >
