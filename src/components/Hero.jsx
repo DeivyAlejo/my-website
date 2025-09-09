@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex justify-center">
           <div className='px-2'>
             <Link
-              to="https://drive.google.com/file/d/1kgT_-h4FsGcEcxHmGMeISauZfH8WVUiT/view?usp=sharing" target='blank'
+              to="https://drive.google.com/file/d/1izW4-hJN-2DGYEOY0bHYX0sXLcSL83uO/view?usp=sharing" target='_blank'
               className="border border-black px-4 py-2 rounded-full font-medium text-lg hover:bg-gray-100 transition"
             >
               Download CV
