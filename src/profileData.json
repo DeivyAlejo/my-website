@@ -63,6 +63,13 @@
     ],
     "projects": [
         {
+            "title": "Movie Catalog API",
+            "description": "A RESTful API for managing movies, directors, and genres. Movies can be associated with multiple genres and directors and can be filtered by these relationships.",
+            "tech": "Node, Express, MongoDB, Mongoose, RestAPI",
+            "github": "https://github.com/DeivyAlejo/movie-catalog-api",
+            "demoPage": "https://github.com/DeivyAlejo/movie-catalog-api"
+        },
+        {
             "title": "Iris Biometrics Recognition",
             "description": "This research created a new iris image dataset using white light to improve recognition for Latin-American eyes. By adapting the EigenIris method and analyzing RGB channels, especially blue, the study achieved strong accuracy without infrared.",
             "tech": "Python, OpenCV, Biometrics Recognition, Image Processing",
