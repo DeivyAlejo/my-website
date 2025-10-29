@@ -63,6 +63,13 @@
     ],
     "projects": [
         {
+            "title": "Personal Portfolio Website",
+            "description": "Designed and developed a responsive React-based website to showcase my projects and experience. Implemented reusable components, smooth navigation, and modern UI styling for an optimized user experience.",
+            "tech": "React, CSS/Tailwind, React Router, Git, Deployment/Render",
+            "github": "https://github.com/DeivyAlejo/my-website",
+            "demoPage": "https://deivymunoz.onrender.com/"
+        },
+        {
             "title": "Movie Catalog API",
             "description": "A RESTful API for managing movies, directors, and genres. Movies can be associated with multiple genres and directors and can be filtered by these relationships.",
             "tech": "Node, Express, MongoDB, Mongoose, RestAPI",
