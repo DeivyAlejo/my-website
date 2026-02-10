@@ -1,9 +1,24 @@
 {
     "experience": [
         {
+            "jobTitle": "Production Engineer",
+            "company": "Evertz Microsystems",
+            "dates": "Oct. 2025 to Present",
+            "location": "Burlington, ON",
+            "skills": "Testing, Quality Assurance, Test Automation, Python, Unit Testing",
+            "responsibilities": [
+                "Conducted firmware and software quality assurance testing on new and updated products prior to release.",
+                "Designed and executed test cases to validate functionality, performance, and system stability.",
+                "Performed regression and integration testing, identified and documented defects, and worked closely with development teams to ensure timely resolution.",
+                "Provided final QA sign-off for product shipments, ensuring compliance with quality standards and customer requirements.",
+                "Collaborated with cross-functional teams (engineering, product, and manufacturing) to ensure reliability and consistency across production releases.",
+                "Contributed to continuous improvement of testing processes and documentation to strengthen overall quality control."
+            ]
+        },
+        {
             "jobTitle": "Failure Analysis Technician",
             "company": "Evertz Microsystems",
-            "dates": "Jan. 2024 to Present",
+            "dates": "Jan. 2024 to Sep. 2025",
             "location": "Burlington, ON",
             "skills": "Electronics, Failure Analysis, Oscilloscope, Multimeter",
             "responsibilities": [
@@ -13,7 +28,7 @@
             ]
         },
         {
-            "jobTitle": "Software Developer",
+            "jobTitle": "Software Developer - Co op",
             "company": "Mohawk College",
             "dates": "Feb. 2022 to Dec. 2023",
             "location": "Hamilton, ON",
