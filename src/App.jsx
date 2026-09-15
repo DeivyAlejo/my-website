@@ -6,6 +6,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Experience from './pages/Experience'
 import Education from './pages/Education'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
     </>
